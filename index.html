@@ -16,31 +16,53 @@
     <title>Burger at Danny's</title>
   </head>
   <body>
-    <nav>
-      <li><button>Menu</button></li>
-      <li>
-        <button><span style="color: #fff">Home</span></button>
-      </li>
-      <li><button>Contact</button></li>
-    </nav>
     <div class="container">
+      <nav>
+        <li><button>Menu</button></li>
+        <li>
+          <button><span style="color: #fff">Home</span></button>
+        </li>
+        <li><button>Contact</button></li>
+      </nav>
       <div class="main">
-        <div class="logo">
-          <img src="burger.jpg" alt="" />
-          <p><span style="color: #fff"></span></p>
+        <div class="home">
+          <div class="logo">
+            <img src="burger.jpg" alt="" />
+            <p><span style="color: #fff"></span></p>
+          </div>
+          <p>
+            <span style="color: #fff"
+              >Savor artisanal burger bliss, where each bite <br />
+              reveals a symphony of flavors tailored <br />
+              to delight.</span
+            >
+          </p>
+          <button>
+            <a href="https://github.com/dlaszkowicz" target="_blank"
+              >BOOK NOW</a
+            >
+          </button>
         </div>
-        <p>
-          <span style="color: #fff"
-            >Savor artisanal burger bliss, where each bite <br />
-            reveals a symphony of flavors tailored <br />
-            to delight.</span
-          >
-        </p>
-        <button>
-          <a href="https://github.com/dlaszkowicz" target="_blank">BOOK NOW</a>
-        </button>
+        <div class="contact">
+          <form>
+            <input type="email" placeholder="Your Email" />
+            <select name="topic" id="">
+              Topic
+              <option value="opic-1">Topic</option>
+              <option value="topic-2">Ipsum</option>
+            </select>
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="Message" />
+            <input type="checkbox" id="terms" />
+            <label for="terms"
+              >I confirm that I have read the Privacy Policy of Dan Inc. with
+              office in Copenhagen.</label
+            >
+            <button type="submit">Send</button>
+          </form>
+        </div>
       </div>
+      <div class="footer">Copyright © 2023 dlaszkowicz</div>
     </div>
-    <div class="footer">Copyright © 2023 dlaszkowicz</div>
   </body>
 </html>
