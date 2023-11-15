@@ -4,6 +4,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins";
 }
 nav {
+  background-color: #f5b115;
+}
+nav button {
+  background-color: #f5b155;
+  border: none;
+  padding: 20px 30px;
 }

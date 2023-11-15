@@ -1,6 +1,5 @@
 const navigation = function () {
   const navbar = document.createElement("nav");
-  content.appendChild(navbar);
 
   const menuBtn = document.createElement("button");
   menuBtn.classList.add("menuBtn");
@@ -16,7 +15,6 @@ const navigation = function () {
   homeBtn.classList.add("homeBtn");
   navbar.appendChild(homeBtn);
   homeBtn.textContent = "Home";
-
   return navbar;
 };
 
