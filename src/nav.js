@@ -15,6 +15,7 @@ const navigation = function () {
   homeBtn.classList.add("homeBtn");
   navbar.appendChild(homeBtn);
   homeBtn.textContent = "Home";
+
   return navbar;
 };
 
